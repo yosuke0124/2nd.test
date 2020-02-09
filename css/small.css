@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* width 480px以下での挙動 */
+@media screen and (max-width: 480px) {
+    
+    .header-nav-list {
+        display: none;
+    }
+    
+    .menu-icon{
+        display: block;
+    }
+
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+body {
+  max-width: 960px;
+}
+
+.header, .header-logo, .footer {
+  max-width: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  background: #3F51B5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  max-width: 100%;
+  padding: 31px 0 30px 140px;
+  width: 200px;
+  height: 39px;
+}
+
+.header-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav-list li {
+  margin: 40px 30px 39px 0;
+}
+
+.header-nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav-list li:hover {
+  border-bottom: solid 2px red;
+  padding-bottom: 5px;
+}
+
+.header-nav-list li:last-child {
+  margin-right: 140px;
+}
+
+.header-nav .menu-icon {
+  color: white;
+  display: none;
+}
+
+.mv {
+  width: 1366px;
+  min-width: 100%;
+  height: 700px;
+  background-image: url(../img/mainvisual.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.mv-title {
+  padding-top: 249px;
+  font-size: 68px;
+}
+
+.mv-text {
+  margin-top: 12px;
+  font-size: 38px;
+}
+
+.mv-btn {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 82px;
+  padding: 17px 81px;
+  font-size: 38px;
+  color: white;
+  background: #3F51B5;
+  border-radius: 12px;
+}
+
+#card-section {
+  width: 1366px;
+  height: 1130px;
+  background: #EFEFEF;
+}
+
+#card-section .section-title {
+  padding-top: 68px;
+  font-size: 60px;
+  text-align: center;
+}
+
+#card-section .section-title ＆h2::after {
+  content: '';
+  display: block;
+  background: #BD0404;
+  height: 3px;
+  width: 28px;
+}
+
+#card-section .card-list {
+  width: 1106px;
+  height: 741px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 113px 0 0 140px;
+}
+
+#card-section .card-list .card {
+  width: 342px;
+  height: 355px;
+  background: white;
+  margin: 0 30px 20px 0;
+}
+
+#card-section .card-list .card:nth-child(3n) {
+  margin-right: 0;
+}
+
+#card-section .card-list .card-img {
+  width: 310px;
+  height: 161px;
+  background: gray;
+  margin: 16px 16px 26px 16px;
+}
+
+#card-section .card-list .card-title {
+  color: #6F7579;
+  font-size: 20px;
+  margin: 26px 0 20px 16px;
+}
+
+#card-section .card-list .card-text {
+  font-size: 16px;
+  margin: 0 16px 0 16px;
+  color: #6F7579;
+}
